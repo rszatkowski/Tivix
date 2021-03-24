@@ -1,0 +1,46 @@
+{
+        "list1":"correctData",
+        "completeData": 
+          { "id": 1,
+            "pickupDate": "2020-12-12",
+            "dropOffDate":"2020-12-15",
+            "country":"Poland",
+            "city":"Wroclaw",
+            "model":"Skoda Octavia",
+            "name":"Jan",
+            "lastName":"Kowalski",
+            "cardNumber":"12785612407124",
+            "email":"jan.kowalski@gmail.com" 
+          },
+        
+        
+        "list2":"emptyData",
+        "noData": 
+          { 
+            "id": 2,
+            "pickupDate": "2019-12-12",
+            "dropOffDate":"2019-12-12",
+            "country":"Poland",
+            "city":"Wroclaw",
+            "model":"Skoda Octavia",
+            "name":"Jan",
+            "lastName":"Kowalski",
+            "cardNumber":"11111111111",
+            "email":"jan.kowalski@gmail.com" 
+        },  
+        
+        "list3":"wrongValues",
+        "wrongData": 
+          { 
+            "id": 3,
+            "pickupDate": "2020-12-12",
+            "dropOffDate":"2021-12-12",
+            "country":"Poland",
+            "city":"Wroclaw",
+            "model":"Skoda Octavia",
+            "name":"123333333333333333333333333333333333333333333333333333333",
+            "lastName":"123333333333333333333333333333333333333333333333333333333",
+            "cardNumber":"123333333333333333333333333333333333333",
+            "email":"123333333333333333333333333333333333333333333333333333333" 
+        }
+    }

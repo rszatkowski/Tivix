@@ -1,0 +1,30 @@
+{
+  "name": "ui-automation-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress-run-cucumber": "cypress run --config-file cypress/cypress-cucumber.json",
+    "cypress-open-cucumber": "cypress open --config-file cypress/cypress-cucumber.json"
+  },
+
+
+
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.0",
+    "cypress": "^6.8.0",
+    "cypress-cucumber-preprocessor": "^4.0.3"
+ 
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "prettier": "^2.2.1"
+  },
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/tests/BDD"
+  }
+}

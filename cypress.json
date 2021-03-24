@@ -1,0 +1,9 @@
+{
+  "retries": 4,
+  "defaultCommandTimeout": 5000,
+  "baseUrl": "http://qalab.pl.tivixlabs.com/",
+  "testFiles": "**/*.{feature,features}",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

@@ -2,5 +2,5 @@
  "baseUrl":"http://qalab.pl.tivixlabs.com/",
  "integrationFolder":"cypress/tests/BDD",
  "pluginsFile":"cypress/plugins/cucumber-plugins.js",
- "retries": 4
+ "retries": 3
 }

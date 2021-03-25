@@ -61,7 +61,7 @@ And('Click on the search button',()=>{
 })
 
 Then('Message with infomation to fill pickup and drop dates appears',()=>{
-    homePage.validateMissingDate()
+    homePage.validateDateErrorMessage('Please fill pickup and drop off dates')
 })
 
 When('I fill all data on the rent page and pick up date will be greater than dropoff date',()=>{
@@ -78,5 +78,5 @@ And('Click on the search button',()=>{
 })
 
 Then('Message with infomation to correct a valid date appears',()=>{
-    homePage.validateWrongDate()
+    homePage.validateDateErrorMessage('Please enter a valid date!')
 })

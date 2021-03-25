@@ -16,11 +16,6 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
-
-   let login
-let usersList
-let adminList
-
 beforeEach(() => {
     cy.openHomePage()
   })

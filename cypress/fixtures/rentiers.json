@@ -12,24 +12,8 @@
             "cardNumber":"12785612407124",
             "email":"jan.kowalski@gmail.com" 
           },
-        
-        
-        "list2":"emptyData",
-        "noData": 
-          { 
-            "id": 2,
-            "pickupDate": "2019-12-12",
-            "dropOffDate":"2019-12-12",
-            "country":"Poland",
-            "city":"Wroclaw",
-            "model":"Skoda Octavia",
-            "name":"Jan",
-            "lastName":"Kowalski",
-            "cardNumber":"11111111111",
-            "email":"jan.kowalski@gmail.com" 
-        },  
-        
-        "list3":"wrongValues",
+         
+        "list2":"wrongValues",
         "wrongData": 
           { 
             "id": 3,

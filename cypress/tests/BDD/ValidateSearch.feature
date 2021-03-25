@@ -1,6 +1,6 @@
-Feature: Login Feature
+Feature: Validate Search
  
-Scenario: Rent a car with using correct data
+Scenario: Verify the search input form
  
 
 Given I fill all data on the rent page except dates

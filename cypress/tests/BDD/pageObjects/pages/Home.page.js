@@ -21,6 +21,10 @@ export default class HomePage {
         cy.contains('Please enter a valid date!').should('be.visible')
     }
 
+    static validateDateErrorMessage(message){
+        cy.contains(message).should('be.visible')
+    }
+
     static selectCountry(country){
         cy.get(this.selectors.countryListBox).select(country)
         cy.contains(country)

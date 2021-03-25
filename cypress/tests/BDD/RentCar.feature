@@ -1,6 +1,6 @@
-Feature: Login Feature
+Feature: Rent Car
  
-Scenario: Rent a car with using correct data
+Scenario: Verify the rent car process
  
 
 Given I fill all data on the rent page
